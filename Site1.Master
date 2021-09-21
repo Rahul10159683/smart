@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication4.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="masterstyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">    
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+    <div class="menu">
+    <ul>
+    
+    <li class="navigation_first_item"><a href="WebForm1.aspx">LOGIN</a></li>
+    <li class="navigation_first_item"><a href="https://www.indiapost.gov.in/vas/Pages/IndiaPostHome.aspx">INDIA POST</a></li>
+    <li class="navigation_first_item"><a href="https://utilities.cept.gov.in//DOP/">EMPLOYEE CORNER</a></li>
+    <li class="navigation_first_item"><a href="https://mis.cept.gov.in/">MIS DATA</a></li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+    <div class="content">
+        <asp:ContentPlaceHolder ID="Contentbody" runat="server">              
+        
+        </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+        <h2>Copyrigt@CBS-CPC AP CIRCLE</h2>
+        </div>
+    </div>
+
+
+    </form>
+</body>
+</html>

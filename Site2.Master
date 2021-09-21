@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="WebApplication4.Site2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="title" runat="server">
+        
+        </asp:ContentPlaceHolder></title>
+    <link href="RO.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 358px;
+            height: 90px;
+        }
+        .style3
+        {
+            width: 358px;
+        }
+        .style4
+        {
+            text-align: right;
+            width: 520px;
+        }
+        .style5
+        {
+            text-align: right;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div>
+        <table class="style1">
+            <tr>
+                <td class="style3">
+                    <img alt="" class="style2" src="Images/Capture.PNG" /></td>
+                <td class="style4">
+                    &nbsp;</td>
+                <td>
+                    <p style="language:en-US;margin-top:0pt;margin-bottom:0pt;margin-left:0in;
+direction:ltr;unicode-bidi:embed;mso-line-break-override:none;
+word-break:normal;punctuation-wrap:hanging" class="style5">
+                        <span style="font-size:18.0pt;
+font-family:Calibri;mso-ascii-font-family:Calibri;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:+mn-cs;color:#7F7F7F;mso-color-index:0;mso-font-kerning:
+12.0pt;language:en-US"><span style="mso-spacerun:yes">&nbsp;<span 
+                            style="font-size: 18.0pt; font-family: Calibri; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; color: inherit; ">Logged 
+                        in as
+                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+&nbsp;&nbsp; </span></span>|<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;
+                        </span><a href="WebForm1.aspx">Logout</a></span><span style="font-size:
+18.0pt;font-family:Calibri;mso-ascii-font-family:Calibri;mso-fareast-font-family:
++mn-ea;mso-bidi-font-family:+mn-cs;color:#7F7F7F;mso-color-index:0;mso-font-kerning:
+12.0pt;language:en-IN"> </span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+  
+    <div class="menu" style="background-color: #D5FFFF">
+    <ul style="background-color: #CCFFFF">
+    <li><a href="RO.aspx">Home</a></li>
+    <li><a href="LB.aspx">Leaderboard</a></li>
+    <li><a href="https://utilities.cept.gov.in//DOP/">Savings Bank</a>
+    <ul>
+    <li><a href="Opening.aspx">Opening of POSB Accounts</a></li>
+    <li><a href="EnrolmentPMSC.aspx">Enrolment to PM Schemes</a></li>
+    </ul>
+    </li>
+    <li><a href="https://mis.cept.gov.in/">Insurance</a>
+    <ul>
+    <li><a href="rplipricol.aspx">RPLI Premium Collection</a></li>
+    <li><a href="">SBG Villages</a></li>
+    <li><a href="">Minimum 2 Policies per BO</a></li>
+    </ul>
+    </li>
+     <li> <a href="https://mis.cept.gov.in/">Manager</a>
+    <ul>
+    <li><a href="">Assign Targets</a></li>
+    <li><a href="">Add/Modify/Delete BO</a></li>
+    <li><a href="">Change Password</a></li>
+    </ul>
+     </li>
+        </ul>
+    </div>
+    <div class="content">
+        <asp:ContentPlaceHolder ID="Contentbody" runat="server">              
+        
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+        </div>
+
+        </div>
+
+    
+    </form>
+</body>
+</html>

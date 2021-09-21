@@ -1,0 +1,494 @@
+﻿body 
+{
+    padding: 0;
+    margin: 0;
+}
+.LB
+{
+    Position: absolute;
+    top:50%;
+    left:23%;
+    transform: translate(-50%, -45%);
+    width: 500px;
+    height: 250px;
+    padding:80px;
+    box-sizing: border-box;
+    background: white;
+
+    border-radius: 40px;
+}
+.LS
+{
+    Position: absolute;
+    top:50%;
+    left:70%;
+    transform: translate(-50%, -45%);
+    width: 800px;
+    height: 250px;
+    padding:80px;
+    box-sizing: border-box;
+    background: white;
+
+    border-color: Black;
+    border-radius: 40px;
+}
+.OP
+{
+    Position: absolute;
+    top:36%;
+    left: 50px;
+    /*left: 20%;
+    transform: translate(-40%, -45%);*/
+    width: 90%;
+    height: 300px;
+    padding:80px;
+    box-sizing: border-box;
+
+
+}
+.Lb1
+{
+    Position: absolute;
+    border-style:ridge;
+    width: 150px;
+    text-align: center;
+    top: 20px;
+    left: 35%;
+    font-size: larger;
+
+    border-radius: 10px;
+}
+.L1
+{
+    Position: absolute;
+    border-style: solid;
+    width: 250px;
+    border-color: Blue;
+    text-align: center;
+    top: 2px;
+    left: 35%;
+    color: White;
+    font-size: larger;
+
+    border-radius: 10px;
+}
+
+.Lb2
+{
+    Position: absolute;
+    border-style:ridge;
+    width: 150px;
+    text-align: center;
+    top: 20px;
+    left: 40%;
+    font-size: larger; 
+
+    border-radius: 10px;
+}
+
+.T
+{
+    Position:absolute;
+    border-style: solid;
+    width: 200px;
+    background-color: Blue;
+    text-align: center;
+    top: 29%;
+    left: 10%;
+    height: 30px;
+    color: White;
+    font-size:larger;
+
+    border-radius: 10px;
+}
+.A
+{
+    Position:absolute;
+    border-style: solid;
+    width: 200px;
+    background-color: Blue;
+    height: 30px;
+    text-align: center;
+    top: 49%;
+    left: 10%;
+    color: White;
+    font-size:larger;
+
+    border-radius: 10px;
+}
+.Per
+{
+    position:absolute;
+    border-style: solid;
+    width: 200px;
+    background-color: Blue;
+    height: 30px;
+    text-align: center;
+    top: 69%;
+    left: 10%;
+    color: White;
+    font-size:larger;
+
+    border-radius: 10px;
+}
+.t1
+{
+    Position:absolute;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 28%;
+    height: 30px;
+    left: 53%; 
+}
+.t2
+{
+    Position:absolute;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 48%;
+    left: 53%;
+}
+.t3
+{
+    position:absolute;
+    top: 69%;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    height: 30px;
+    left: 53%;
+}
+
+.C
+{
+    border-style: solid;
+    width: 200px;
+    Position:absolute;
+    top: 29%;
+    height:30px;
+    left: 10%;
+    color: White;
+    text-align: center;
+    background-color:Blue;
+    font-size:larger;
+
+    border-radius: 10px;
+}
+.R
+{
+    Position:absolute;
+    border-style:solid;
+    width: 200px;
+    top: 50%;
+    height: 30px;
+    left: 10%;
+    color: White;
+    text-align:center;
+    background-color:Blue;
+    font-size:larger;
+
+    border-radius: 10px;
+}
+.D
+{
+    position:absolute;
+    border-style:solid;
+    width: 200px;
+    text-align: center;
+    background-color: blue;
+    height: 30px;
+    top: 70%;
+    left: 10%;
+    color: White;
+    font-size:larger;
+      border-style: solid;
+    border-radius: 10px;
+}
+.tb1
+{
+    Position:absolute;
+    height: 30px;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 28%;
+    left: 38%; 
+}
+.tb2
+{
+    Position:absolute;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    height: 30px;        
+    top: 50%;
+    left: 38%;
+}
+.tb3
+{
+    position:absolute;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    height: 30px;
+    top: 70%;
+    left: 38%;
+}
+.b1
+{
+    Position:absolute;
+    height: 30px;
+    top: 29%;
+    left: 68%; 
+       width: 200px;
+
+    border-radius: 10px;
+}
+.b2
+{
+    Position:absolute;
+    height: 30px;
+    top: 51%;
+    left: 68%;
+    width: 200px;
+
+    border-radius: 10px;
+}
+.b3
+{
+    position:absolute;
+    height: 30px;
+       width: 200px;
+    top: 72%;
+    left: 68%;
+
+    border-radius: 10px;
+}
+
+/*SECOND BOX*/
+
+.BB
+{
+    Position: absolute;
+    top:85%;
+    left: 50px;
+    /*left: 20%;
+    transform: translate(-40%, -45%);*/
+    width: 90%;
+    height: 300px;
+    padding:80px;
+    box-sizing: border-box;
+
+
+}
+.epms
+{
+    Position: absolute;
+    border-style: solid;
+    width: 250px;
+    text-align: center;
+    top: 2px;
+    left: 35%;
+    color: White;
+    font-size: larger;
+    border-radius: 10px;
+    border-color: Black;
+}
+.BL
+{
+ Position: absolute;
+    top:50%;
+    left:23%;
+    transform: translate(-50%, -45%);
+    width: 500px;
+    height: 250px;
+    padding:80px;
+    box-sizing: border-box;
+    background: white;
+
+    border-radius: 40px;
+}
+.T2
+{
+    Position:absolute;
+    border-style: solid;
+    width: 200px;
+    
+    text-align: center;
+    top: 29%;
+    left: 10%;
+    height: 30px;
+    color: White;
+    font-size:larger;
+
+    border-radius: 10px;
+}
+.A2
+{
+    Position:absolute;
+    border-style: solid;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    top: 49%;
+    left: 10%;
+    color: White;
+    font-size:larger;
+    border-radius: 10px;
+}
+.Per2
+{
+    position:absolute;
+    border-style: solid;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    top: 69%;
+    left: 10%;
+    color: White;
+    font-size:larger;
+    border-radius: 10px;
+}
+.t12
+{
+    Position:absolute;
+    top: 28%;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    height: 30px;
+    left: 53%; 
+}
+.t22
+{
+    Position:absolute;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 48%;
+    height: 30px;
+    left: 53%;
+}
+.t32
+{
+    position:absolute;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 69%;
+    height: 30px;
+    left: 53%;
+}
+.BR
+{
+    Position: absolute;
+    top:50%;
+    left:70%;
+    transform: translate(-50%, -45%);
+    width: 800px;
+    height: 250px;
+    padding:80px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 40px;
+}
+
+.C2
+{
+    border-style: solid;
+    width: 200px;
+    Position:absolute;
+    top: 29%;
+    height:30px;
+    left: 10%;
+    color: White;
+    text-align: center;
+    font-size:larger;
+    border-radius: 10px;
+}
+.R2
+{
+    Position:absolute;
+    border-style:solid;
+    width: 200px;
+    top: 50%;
+    height: 30px;
+    left: 10%;
+    color: White;
+    text-align:center;
+    font-size:larger;
+    border-radius: 10px;
+}
+.D2
+{
+    position:absolute;
+    border-style:solid;
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    top: 70%;
+    left: 10%;
+    color: White;
+    font-size:larger;
+    border-radius: 10px;
+}
+.tb12
+{
+    Position:absolute;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    height: 30px;
+    top: 28%;
+    left: 38%; 
+}
+.tb22
+{
+    Position:absolute;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    height: 30px;        
+    top: 50%;
+    left: 38%;
+}
+.tb32
+{
+    position:absolute;
+    height: 30px;
+     text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 70%;
+    left: 38%;
+}
+.b12
+{
+    Position:absolute;
+    height: 30px;
+    top: 29%;
+    left: 68%; 
+    width: 200px;
+    border-radius: 10px;
+}
+.b22
+{
+    Position:absolute;
+    height: 30px;
+    top: 51%;
+    left: 68%;
+    width: 200px;
+    border-radius: 10px;
+}
+.b32
+{
+    position:absolute;
+    height: 30px;
+       width: 200px;
+    top: 72%;
+    left: 68%;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,111 @@
+﻿body {
+margin: 0;
+padding: 0;
+background-image: url('Images/L2.JPG');
+background-size: cover;
+font-family: Sans-Serif;
+}
+.loginbox
+{
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    transform: translate(-15%,-15%);
+    width: 60%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: transparent;
+}
+.user
+{
+    width:200px;
+    height:123px;
+    overflow:hidden;
+    top: calc(-100px/2);
+    left:calc(40% - 50px);
+    position:absolute;
+}
+h2
+{
+    padding:0;
+    margin:0;
+    text-align:center;
+    color: Red;
+}
+.lbluser, .lblpass
+{
+    font-weight: bold;
+    color: #FF3300;
+    text-align: right;
+}
+.txtuser, .txtpass 
+{
+    width:50%;
+    height:40px;
+    margin-bottom:20px;
+}
+
+.btnsubmit
+{
+    width:80px;
+    height:30px;
+}
+
+.btnforget
+{
+   left:50;
+   margin-bottom:20px;
+    color: #0066FF;
+    font-weight: 700;
+}
+.txtuser, .txtpass
+{
+    border-bottom: 3px solid #fff;
+    outline: none;
+    color: #FF0066;
+    font-size: 16px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+::Placeholder
+{
+    color:White;
+    
+}
+.btnsubmit
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    height: 29px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255, 9, 9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    top: 104px;
+}
+.btnsubmit:hover
+{
+    background-color:rgb(255,217,9);
+}
+.btnforget
+{
+    font-size:16px;
+    font-weight:700;
+    text-decoration:none;
+    color:#fff;
+}
+
+    
+
+    

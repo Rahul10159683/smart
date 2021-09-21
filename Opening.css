@@ -1,0 +1,551 @@
+﻿body 
+{
+    margin: 0;
+    padding: 0;
+}
+.Heading
+{
+    top: 30%;
+    text-align:center;
+    position: absolute;
+    font-weight: bold;
+    right: 40%;
+    font-size: x-large;
+}
+.Glan
+{
+    Position: absolute;
+    top:36%;
+    left: 58px;
+    /*left: 20%;
+    transform: translate(-40%, -45%);*/
+    width: 90%;
+    height: 350px;
+    padding:80px;
+    box-sizing: border-box;  
+}
+.A
+{
+    Position: absolute;
+    width: 250px;
+    top: 2px;
+    left: 45%;
+    color: Black;
+    font-weight:bold;
+    font-size: x-large;
+}
+.S
+{
+    Position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    width: 95%;
+    height: 250px;
+    padding:80px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 40px;
+}
+.sb
+{
+    position:absolute;
+    top: 20px;
+    left:18%;
+    font-size: x-large;
+    font-weight:bold;
+}
+
+.rd
+{
+    position:absolute;
+    top: 20px;
+    left:28%;
+    font-size: x-large;
+    font-weight:bold;
+}
+.td
+{
+    position:absolute;
+    top: 20px;
+    left:38%;
+    font-size: x-large;
+    font-weight:bold;
+}
+.mis
+{
+    position:absolute;
+    top: 20px;
+    left:48%;
+    font-size: x-large;
+    font-weight:bold;
+}
+.scss
+{
+    position:absolute;
+    top: 20px;
+    left:58%;
+    font-size: x-large;
+    font-weight:bold;
+}
+.ssy
+{
+    position:absolute;
+    top: 20px;
+    left:68%;
+    font-size: x-large;
+    font-weight:bold;
+}
+.ppf
+{
+    position:absolute;
+    top: 20px;
+    left:78%;
+    font-size: x-large;
+    font-weight:bold;
+}
+.total
+{
+    position:absolute;
+    top: 20px;
+    left:88%;
+    font-size: x-large;
+    font-weight:bold;
+}
+.T
+{
+    Position:absolute;
+    border-style: solid;
+    width: 150px;
+    background-color: Blue;
+    text-align: center;
+    top: 29%;
+    left: 3%;
+    height: 30px;
+    color: White;
+    font-size:larger;
+}
+.A
+{
+    Position:absolute;
+    border-style: solid;
+    width: 150px;
+    background-color: Blue;
+    height: 30px;
+    text-align: center;
+    top: 49%;
+    left: 3%;
+    color: White;
+    font-size:larger;
+}
+.P
+{
+    position:absolute;
+    border-style: solid;
+    width: 150px;
+    background-color: Blue;
+    height: 30px;
+    text-align: center;
+    top: 69%;
+    left: 3%;
+    color: White;
+    font-size:larger;
+}
+.t1
+{
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+    position: absolute;
+    height:30px;
+    width: 100px;
+    left:15.5%;
+    top: 29%;
+}
+.t2
+{
+    position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+     height:30px;
+    width: 100px;
+    left:25.5%;
+    top: 29%;
+}
+.t3
+{
+    position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+     height:30px;
+    width: 100px;
+    left:35.5%;
+    top: 29%;
+}
+.t4
+{
+    position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+     height:30px;
+    width: 100px;
+    left:46%;
+    top: 29%;
+}
+.t5
+{
+    position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+     height:30px;
+    width: 100px;
+    left:56.5%;
+    top: 29%;
+}
+.t6
+{
+    position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+     height:30px;
+    width: 100px;
+    left:66%;
+    top: 29%;
+}
+.t7
+{
+    position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+     height:30px;
+    width: 100px;
+    left:76%;
+    top: 29%;
+}
+.t8
+{
+    position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+    left:87.3%;
+     height:30px;
+    width: 100px;
+    top: 29%;
+}
+.t11
+{
+    position:absolute;
+    top: 49%;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+    left: 15.5%;
+    width: 100px;
+    height: 30px;
+}
+.t12
+{
+    Position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 49%;
+    left: 25.5%;
+}
+.t13
+{
+    Position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 49%;
+    left: 35.5%;
+}
+.t14
+{
+    Position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 49%;
+    left: 46%;
+}
+.t15
+{
+    Position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 49%;
+    left: 56.5%;
+}
+.t16
+{
+    Position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 49%;
+    left: 66%;
+}
+.t17
+{
+    Position: absolute;
+    height: 30px;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+    width: 100px;
+    top: 49%;
+    left: 76%;
+}
+.t18
+{
+    Position: absolute;
+     text-align:center;
+     font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 49%;
+    left: 87.3%;
+}
+.t21
+{  
+    Position: absolute;
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 69%;
+    left: 15.5%;
+}
+.t22
+{  
+    Position: absolute;
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 69%;
+    left: 25.5%;
+}
+.t23
+{  
+    Position: absolute;
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 69%;
+    left: 35.5%;
+}
+.t24
+{  
+    Position: absolute;
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 69%;
+    left: 46%;
+}
+.t25
+{  
+    Position: absolute;
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 69%;
+    left: 56.5%;
+}
+.t26
+{  
+    Position: absolute;
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 69%;
+    left: 66%;
+}
+.t27
+{  
+    Position: absolute;
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 69%;
+    left: 76%;
+}
+.t28
+{  
+    Position: absolute;
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+    height: 30px;
+    width: 100px;
+    top: 69%;
+    left: 87.3%;
+}
+.container
+{
+    position:absolute;
+    top: 90%;
+    left: 58px;
+    width: 90%;
+    height: 450px;
+    box-sizing: border-box;  
+}
+.R1
+{
+    position: absolute;
+    font-weight:bold;
+    font-size:x-large;
+    text-align:center;
+    top: 10px;
+    left: 43%;
+}
+.tab_triger
+{
+    position:absolute;
+    top: 10%;
+}
+.tab_triger ul
+{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.tab_triger ul li
+{
+}
+.tab_triger ul li label
+{
+    position: relative;
+    display:block;
+    padding:8px 15px;
+    cursor:pointer;
+    min-width: 250px;
+    background: blue;
+    border-radius: 8px 8px 0 0;
+}
+.tab_triger ul li:nth-child(1) label
+{
+    background: white;
+}
+.tab_triger ul li:nth-child(2) label
+{
+    background: white;
+}
+.tab_container_wrap
+{
+}
+.tab_container_wrap input
+{
+    position: absolute;
+    width:0;
+    height:0;
+    margin: 0;
+    z-index: -100;
+    top: -10000px;    
+}
+.tab_container_wrap input:checked + .tab_content_box
+{
+    display:block;
+}
+.tab_content_box
+{
+    Position:absolute;
+    top: 18%;
+    background: #f0f0f0;
+    display: none;
+}
+.tab_content_box:nth-of-type(1)
+{
+    background: #e6e6e6;
+   
+}
+.tab_content_box:nth-of-type(2)
+{
+    background: #d9d9d9;
+}
+
+.R2
+{
+    position: absolute;
+    background-color:White;
+    font-weight:bold;
+    width: 290px;
+    font-size:x-large;
+    text-align:center;
+    top: 40px;
+    display:block;
+    cursor:pointer;
+    left: 5%;
+    Border-radius: 20px;
+    height: 30px;
+}
+.R3
+{
+    position: absolute;
+    display: block;
+    font-weight:bold;
+    display:block;
+    font-size:x-large;
+    cursor:pointer;
+    width: 290px;
+    height: 30px;
+    background-color:White;
+    text-align:center;
+    top: 40px;
+    left:26%;
+    Border-radius: 20px;
+}
+.Da
+{
+ position: absolute;
+ border-style:solid;
+ text-align:center;
+ left: 5%;
+ top:80px;
+ display: none;
+ width:85%;
+}
+.bo
+{
+    position:absolute;
+    top: 155%;
+    left: 58px;
+    width: 90%;
+    height: 450px;
+    box-sizing: border-box;  
+}

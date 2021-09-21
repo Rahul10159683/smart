@@ -1,0 +1,312 @@
+﻿body 
+{
+    padding: 0;
+    margin: 0;
+}
+.PMS
+{
+    font-size:x-large;
+    position:absolute;
+    font-weight:bold;
+    top: 30%;
+    left:36%;
+}
+.GLAN
+{
+    Position: absolute;
+    top:36%;
+    left: 58px;
+    width: 90%;
+    height: 350px;
+    padding:80px;
+    box-sizing: border-box;
+  
+}
+.H
+{
+    Position: absolute;
+    text-align:center;
+    font-size:x-large;
+    font-weight:bold;
+    top: 10px;
+    left: 45%;
+}
+.sub
+{
+    position:absolute;
+    top: 42px;
+    width: 90%;
+    height: 80%;
+    padding:80px;
+    border-radius: 40px;
+    background-color:White;
+    box-sizing: border-box;
+}
+.APY
+{
+    position:absolute;
+    font-size:x-large;
+    text-align:left;
+    left: 30%;
+    top: 15%;
+    font-weight:bold;
+}
+.PMSBY
+{
+    position:absolute;
+    font-size:x-large;
+    left: 50.5%;
+    top: 15%;
+    font-weight:bold;
+    
+}
+.PMJJBY
+{
+    position:absolute;
+    font-size:x-large;
+    left: 76%;
+    top: 15%;
+    font-weight:bold;
+}
+.T
+{
+    position:absolute;
+    top: 29%;
+    left: 120px;
+    background-color: Blue;
+    height: 35px;
+    box-sizing: border-box;
+    text-align:center;
+    width: 200px;
+    font-size:x-large;
+    color:White;
+    font-weight:bold;
+}
+.A
+{
+    position:absolute;
+    left: 120px;
+    top: 49%;
+    background-color: Blue;
+    height: 35px;
+    box-sizing: border-box;
+    text-align:center;
+    color:White;
+    width: 200px;
+    font-size:x-large;
+    font-weight:bold;
+}
+.PER
+{
+    position:absolute;
+    left: 120px;
+    height: 35px;
+    top: 69%;
+    background-color: Blue;
+    box-sizing: border-box;
+    text-align:center;
+    color:White;
+    width: 200px;
+    font-size:x-large;
+    font-weight:bold;
+}
+.t1
+{
+    position:absolute;
+    text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 27.6%;
+    left: 28.7%;
+    width: 200px;
+    height: 35px;
+}
+.t2
+{
+    position:absolute;
+    text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 27.6%;
+    left: 50%;
+     width: 200px;
+    height: 35px;
+}
+.t3
+{
+    position:absolute;
+    top: 27.6%;
+    text-align:center;
+    font-weight:bold;
+    font-size: large;
+    left: 71%;
+     width: 200px;
+    height: 35px;
+}
+.t4
+{
+    position:absolute;
+    text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 47%;
+    left: 28.7%;
+     width: 200px;
+    height: 35px;
+}
+.t5
+{
+    position:absolute;
+    top: 47%;
+    text-align:center;
+    font-weight:bold;
+    font-size: large;
+    left: 50%;
+     width: 200px;
+    height: 35px;
+}
+.t6
+{
+    position:absolute;
+    text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 47%;
+    left: 71%;
+     width: 200px;
+    height: 35px;
+}
+.t7
+{
+    position:absolute;
+    text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 68%;
+    left: 28.7%;
+     width: 200px;
+    height: 35px;
+}
+.t8
+{
+    position:absolute;
+    text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 68%;
+    left: 50%;
+     width: 200px;
+    height: 35px;
+}
+.t9
+{
+    position:absolute;
+    text-align:center;
+    font-weight:bold;
+    font-size: large;
+    top: 68%;
+    left: 71%;
+     width: 200px;
+    height: 35px;
+}
+.container
+{
+    position:absolute;
+    top: 90%;
+    left: 58px;
+    width: 90%;
+    height: 450px;
+    box-sizing: border-box;  
+}
+.R1
+{
+    position: absolute;
+    font-weight:bold;
+    font-size:x-large;
+    text-align:center;
+    top: 10px;
+    left: 43%;
+}
+.tab_triger
+{
+    position:absolute;
+    top: 10%;
+}
+.tab_triger ul
+{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.tab_triger ul li
+{
+}
+.tab_triger ul li label
+{
+    position: relative;
+    display:block;
+    padding:8px 15px;
+    cursor:pointer;
+    min-width: 250px;
+    background: white;
+    text-align:center;
+    border-radius: 8px 8px 0 0;
+}
+.tab_triger ul li:nth-child(1) label
+{
+    background: white;
+}
+.tab_triger ul li:nth-child(2) label
+{
+    background: white;
+}
+.tab_triger ul li:nth-child(3)label
+{
+    background: white;
+}
+.tab_container_wrap
+{
+}
+.tab_container_wrap input
+{
+    position: absolute;
+    width:0;
+    height:0;
+    margin: 0;
+    z-index: -100;
+    top: -10000px;    
+}
+.tab_container_wrap input:checked + .tab_content_box
+{
+    display:block;
+}
+.tab_content_box
+{
+    Position:absolute;
+    top: 18%;
+    background: #f0f0f0;
+    display: none;
+}
+.tab_content_box:nth-of-type(1)
+{
+    background: #e6e6e6;
+   
+}
+.tab_content_box:nth-of-type(2)
+{
+    background: #d9d9d9;
+}
+.tab_content_box:nth-of-type(3)
+{
+    background: #f0f0f0;
+}
+.bo
+{
+    position:absolute;
+    top: 155%;
+    left: 58px;
+    width: 90%;
+    height: 450px;
+    box-sizing: border-box;  
+}
